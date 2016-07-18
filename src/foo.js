@@ -3,7 +3,9 @@ import TableRow from '../src/TableRow.js';
 
 var Foo = React.createClass({
   componentDidMount: function(){
-    // use this if you need access to a full browser DOM
+    // implement this React method if you need access to a full browser DOM
+    // this is the point in the React component lifecycle where the browser DOM
+    // APIs are available.
   },
   render: function() {
     return (

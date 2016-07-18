@@ -9,12 +9,15 @@ describe('Foo Test with Mount', () => {
 
   it('calls componentDidMount', () => {
 
-    // here we really care about ALL the dependencies of Foo
+    // here we care about ALL the dependencies of Foo
+    // if there's an error in foo's dependency - TableRow -
+    // the test will fail.
+    // TRY IT: Add an undefined component to TableRow and run the test.
 
     // test setup
     sinon.spy(Foo.prototype, 'componentDidMount');
 
-    // the test
+    // the test - can we mount Foo into the DOM?
     const wrapper = mount(<Foo />);
 
     // the assertion
