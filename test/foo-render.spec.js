@@ -7,7 +7,7 @@ import { render } from 'enzyme'; // render is a function
 
 describe('Foo Test with Render', () => {
 
-  it('checks that ', () => {
+  it('checks that there are 3 elements within Foo with the class .foo-bar', () => {
 
     /**
     HTML Rendering example:
