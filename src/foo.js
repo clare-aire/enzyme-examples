@@ -9,13 +9,18 @@ var Foo = React.createClass({
   },
   render: function() {
     return (
-      <div>
+      <div className="foo-bar">
         <div className="commentBox">
           Hello, world!
         </div>
-        <TableRow />
-        <TableRow />
-        <TableRow />
+        <div className="foo-bar">
+          <TableRow />
+          <TableRow />
+          <TableRow />
+        </div>
+        <div className="foo-bar">
+          Hola Mundo!
+        </div>
       </div>
     );
   }
