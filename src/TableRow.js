@@ -1,5 +1,5 @@
 import React from 'react';
-var TableRow = React.createClass({
+const TableRow = React.createClass({
   render: function () {
     return (
       <tr>
