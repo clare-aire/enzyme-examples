@@ -1,8 +1,9 @@
 {
   "name": "react-testing-components-enzyme",
   "version": "1.0.0",
-  "description": "Sample repo for a blog post on testing react components with enzyme",
+  "description": "Sample repo for testing react components with enzyme",
   "main": "index.js",
+  "private": "true",
   "scripts": {
     "test": "mocha -w test/helpers/browser.js test/*.spec.js",
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./"
@@ -12,16 +13,6 @@
       "./test/helpers/setup-browser-env.js"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/markthethomas/react-testing-components-enzyme.git"
-  },
-  "author": "Mark Thomas <markthethomas@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/markthethomas/react-testing-components-enzyme/issues"
-  },
-  "homepage": "https://github.com/markthethomas/react-testing-components-enzyme#readme",
   "devDependencies": {
     "ava": "^0.12.0",
     "babel-core": "^6.6.4",
